@@ -18,13 +18,12 @@
 
 .header {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     font-size: 16px;
-    gap: 10px;
     align-items: center;
     justify-content: center;
     padding: 10px 5px;
-    margin: 0 10px;
+    gap: 30%;
 }
 
 .header >img {
@@ -51,6 +50,7 @@
 }
 .hero-session {
     display: flex;
+    flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
     padding: 40px;
