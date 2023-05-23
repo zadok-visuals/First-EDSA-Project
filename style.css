@@ -50,11 +50,14 @@
 }
 .hero-session {
     display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 100px;
     background-color: #0085FF;
-    height: 500px;
+    /* height: 500px;
     padding: 100px;
     justify-content: center;
-    align-items: center;   
+    align-items: center;    */
 }
 
 .hero-session >img {
