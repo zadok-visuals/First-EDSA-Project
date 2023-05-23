@@ -219,6 +219,6 @@
     border-radius: 20px;
 }
 
-.icons >img  {
-    /* padding: 0px 4px; */
+.icons {
+    gap: 30px;
 }
