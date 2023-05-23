@@ -53,7 +53,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     background-color: #0085FF;
 }
 
