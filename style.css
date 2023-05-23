@@ -20,10 +20,11 @@
     display: flex;
     flex-wrap: wrap;
     font-size: 16px;
-    justify-content: space-between;
+    gap: 10px;
     align-items: center;
-    padding: 10px 100px;
-    margin: 0 20px;
+    justify-content: center;
+    padding: 10px 5px;
+    margin: 0 10px;
 }
 
 .header >img {
@@ -52,15 +53,12 @@
     display: flex;
     gap: 16px;
     justify-content: center;
-    padding: 100px;
+    padding: 40px;
     background-color: #0085FF;
-    /* height: 500px;
-    padding: 100px;
-    justify-content: center;
-    align-items: center;    */
 }
 
 .hero-session >img {
+    padding: 0 10px;
     width: 450px;
     height: 500px;
 }
@@ -91,6 +89,7 @@
     display: flex;
     gap: 16px;
     justify-content: center;
+    align-items: center;
     margin: 100px;
     padding: 100px;
 }
@@ -174,7 +173,7 @@
     background-color: #0085FF;
     color: #fff;
     border: none;
-    width: 20%;
+    width: 100%;
     height: 40px;
     float: right;
     border-radius: 15px;
@@ -196,7 +195,7 @@
 .right {
     flex: 70%;
     padding: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .right >p {
