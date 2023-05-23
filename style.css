@@ -169,9 +169,10 @@
     display: flex;
     gap: 64px;
     text-align: center;
-    padding: 100px;
+    padding: 80px;
     justify-content: center;
     background-color: #f1f1f1;
+    margin-bottom: 100px;
 }
 
 .right >button {
@@ -199,13 +200,13 @@
 
 .right {
     flex: 70%;
-    padding: 20px;
     text-align: center;
 }
 
 .right >p {
     margin-top: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    width: auto;
 }
 
 #focus {
