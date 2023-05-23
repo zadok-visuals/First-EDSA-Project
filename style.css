@@ -181,7 +181,7 @@
     width: 100%;
     height: 40px;
     float: right;
-    border-radius: 15px;
+    border-radius: 8px;
     margin-top: 10px;
 }
 
@@ -219,6 +219,5 @@
 }
 
 .icons >img  {
-    width: 35px;
-    padding: 0px 4px;
+    /* padding: 0px 4px; */
 }
