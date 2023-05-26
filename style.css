@@ -125,6 +125,7 @@
     margin: 0 auto;
     margin-top: 250px;
     margin-bottom: 200px;
+    grid-auto-flow: row;
 }
 
 .one {
@@ -270,7 +271,6 @@ hr {
     border-radius: 8px;
     margin-top: 10px;
 }
-
 .right >button:hover {
     cursor: pointer;
     background-color: #fff;
@@ -278,10 +278,10 @@ hr {
     color: #0085FF;
 }
 
-.right >input {
-    /* width: 100%;
+.input {
+    width: 100%;
     height: 100px;
-    border: none; */
+    margin-top: 10px;
 }
 
 .right {
@@ -290,9 +290,13 @@ hr {
 }
 
 .right >p {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 40px;
     width: auto;
+}
+
+.right >h1 {
+    margin-bottom: 10px;
 }
 
 #focus {
